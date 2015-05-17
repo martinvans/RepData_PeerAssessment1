@@ -56,7 +56,7 @@ histPlot <- ggplot( stepsDay, aes( x=steps)) +
 histPlot
 ```
 
-![](figure/plot_histogram_steps_by_day-1.png) 
+![](figure/plot_histogram_steps_by_day.png) 
   
   
 Calculate and report the mean and median of the total number of steps taken per day
@@ -90,7 +90,7 @@ intervalPlot <- ggplot( avgStepsInterval, aes(x=interval, y=steps)) +
 intervalPlot
 ```
 
-![](figure/plot_avg_daily_activity-1.png) 
+![](figure/plot_avg_daily_activity.png) 
   
   
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -170,7 +170,7 @@ histPlotComplete <- ggplot( stepsDayComplete, aes( x=steps)) +
 histPlotComplete
 ```
 
-![](figure/plot_histogram_steps_by_day_complete-1.png) 
+![](figure/plot_histogram_steps_by_day_complete.png) 
 
 ```r
 stepsMeanComplete   <- mean( stepsDayComplete$steps)
@@ -215,6 +215,6 @@ ggplot( avgStepsIntervalWeekday, aes( interval,steps)) +
                 facet_grid( weekday ~ .) 
 ```
 
-![](figure/plot_panel_weekday_avg_daily_activity-1.png) 
+![](figure/plot_panel_weekday_avg_daily_activity.png) 
 
  
