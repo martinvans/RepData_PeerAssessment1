@@ -187,7 +187,7 @@ After replacing the NA values, the mean is **10766.19** and median is **10766.19
 ## Are there differences in activity patterns between weekdays and weekends?
   
   
-Create a new factor variable in the dataset with two levels  weekday and weekend indicating whether a given date is a weekday or weekend day.
+Create a new factor variable in the dataset with two levels weekday and weekend indicating whether a given date is a weekday or weekend day.
   
   
 
